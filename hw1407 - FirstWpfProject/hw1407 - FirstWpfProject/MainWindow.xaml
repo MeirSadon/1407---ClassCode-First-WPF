@@ -1,0 +1,19 @@
+﻿<Window x:Class="hw1407___FirstWpfProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hw1407___FirstWpfProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Top">
+        <TextBlock FontSize="22" TextAlignment="Center" Margin="0 30 0 0">
+            
+            How Do You Like Your Coffee?
+        </TextBlock>
+        <Button Content="Black" FontSize="20" Margin="50,50,50,0"/>
+        <Button Content="With Milk" FontSize="20" Margin="50,50,50,0"/>
+        <Button Content="Latte Machiato" FontSize="20" Margin="50,50,50,0"/>
+        <Button Content="Chappuchino" FontSize="20" Margin="50,50,50,0"/>
+    </StackPanel>
+</Window>
